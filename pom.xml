@@ -45,7 +45,7 @@
         <httpclient.version>4.5.5</httpclient.version>
         <postgresql.version>42.7.5</postgresql.version>
         <HikariCP.version>5.1.0</HikariCP.version>
-        <flyway.version>9.22.3</flyway.version>
+        <flyway.version>11.1.0</flyway.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <constretto.version>2.2.3</constretto.version>
         <json-path.version>2.9.0</json-path.version>
@@ -443,7 +443,7 @@
                                         <Main-Class>no.cantara.cs.Main</Main-Class>
                                     </manifestEntries>
                                 </transformer>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>META-INF/spring.handlers</resource>
